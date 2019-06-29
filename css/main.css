@@ -44,7 +44,11 @@ header.header1 {
     margin-right: 30px; }
   .header1-wrapper-logo a {
     margin-right: 20px;
-    font: 12px 'Roboto light', sans-serif, Helvetica Neue, Helvetica; }
+    font: 12px 'Roboto light', sans-serif, Helvetica Neue, Helvetica;
+    cursor: pointer;
+    transition: 0.5s color; }
+  .header1-wrapper-logo a:hover {
+    color: #999999; }
 
 .header1-wrapper-contact {
   justify-content: flex-end;
@@ -136,13 +140,13 @@ header.header2 {
   align-items: center;
   flex-grow: 1;
   justify-content: flex-end;
-  padding-right: 34px;
+  padding-right: 33px;
   padding-bottom: 5px; }
   .header2-wrapper-entrance figure {
     align-items: flex-end;
     color: #00b372;
     width: 60px;
-    margin-left: 26px; }
+    margin-left: 27px; }
     .header2-wrapper-entrance figure figcaption {
       margin-bottom: -1px;
       font: 12px 'Roboto', sans-serif,  Helvetica Neue, Helvetica;
