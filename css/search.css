@@ -83,8 +83,7 @@
 }
 
 .header2-icon-search {
-	color: #fff;
-	background: #00b372;
+	color: #262626;
 	z-index: 90;
 	font-size: 22px;
 	font-family: 'icomoon';
@@ -108,8 +107,6 @@
 
 .header2-search.header2-search-open .header2-icon-search,
 .no-js .header2-search .header2-icon-search {
-	background: #00b372;
-	color: #fff;
 	z-index: 11;
 }
 
