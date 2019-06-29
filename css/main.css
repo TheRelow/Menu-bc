@@ -44,7 +44,8 @@ header.header1 {
   .header1-wrapper-logo a {
     margin-right: 20px;
     font-weight: 300;
-    -webkit-font-smoothing: antialiased; }
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased; }
 
 .header1-wrapper-contact {
   justify-content: flex-end;
