@@ -6,6 +6,8 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/search.css">
+	<script src="js/search/modernizr.custom.js"></script>
 </head>
 <body>
 	<div class="menu">
@@ -30,13 +32,17 @@
 				<nav class="header2-wrapper-menu">
 					<a href="">ФУНКЦИИ CRM</a>
 					<a href="">ВНЕДРЕНИЕ CRM</a>
-					<a href="">НАШИ ПАРТНЕРЫ</a>
-					<a href="">ЦЕНЫ</a>
 					<a href="">КОНТАКТЫ</a>
 				</nav>
 				<nav class="header2-wrapper-entrance">
-					<figure><img src="img/login.svg" alt=""><figcaption>Вход</figcaption></figure>
-					<button>НАЧАТЬ БЕСПЛАТНО</button>
+					<div id="header2-search" class="header2-search">
+						<form>
+							<input class="header2-search-input" placeholder="Что будете искать?" type="text" value="" name="search" id="search">
+							<input class="header2-search-submit" type="submit" value="">
+							<span class="header2-icon-search"></span>
+						</form>
+					</div>
+					<figure><img src="img/login.svg" alt=""><figcaption>Вход<br>в 5crm</figcaption></figure>
 				</nav>
 			</div>
 		</header>
@@ -58,5 +64,10 @@
 		</header>
 	</div>
 	<script src="js/menu.js"></script>
+	<script src="js/search/classie.js"></script>
+	<script src="js/search/uisearch.js"></script>
+	<script>
+		new UISearch( document.getElementById( 'header2-search' ) );
+</script>
 </body>
 </html>

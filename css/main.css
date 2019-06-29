@@ -1,4 +1,4 @@
-header.header1, .header1-wrapper, .header1-wrapper-contact, .header1-wrapper-contact figure, header.header2, .header2-wrapper, .header2-wrapper-menu, .header2-wrapper-menu a, .header2-wrapper-entrance, .header2-wrapper-entrance figure, header.active .fullscreen-overlay-nav a, header.active .fullscreen-overlay-nav2 a, header.active .fullscreen-overlay-nav2 figure {
+header.header1, .header1-wrapper, .header1-wrapper-contact, .header1-wrapper-contact figure, .header1-wrapper-contact figure figcaption, header.header2, .header2-wrapper, .header2-wrapper-menu, .header2-wrapper-menu a, .header2-wrapper-entrance, .header2-wrapper-entrance figure, header.active .fullscreen-overlay-nav a, header.active .fullscreen-overlay-nav2 a, header.active .fullscreen-overlay-nav2 figure {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -8,7 +8,7 @@ header.header1, .header1-wrapper, .header1-wrapper-contact, .header1-wrapper-con
 * {
   padding: 0;
   margin: 0;
-  font-family: 'PT Sans', sans-serif; }
+  font-family: "Roboto"; }
 
 html {
   transition: all .33s ease-out;
@@ -17,7 +17,7 @@ html {
 .menu {
   width: 100%;
   position: relative;
-  font: 14px "Roboto"; }
+  font: 12px "Roboto"; }
 
 header.header1 {
   justify-content: center;
@@ -32,13 +32,13 @@ header.header1 {
   align-items: center;
   box-sizing: border-box;
   width: 90%;
-  max-width: 1100px;
+  max-width: 1306px;
   height: 34px; }
 
 .header1-wrapper-logo {
-  height: 34px; }
+  height: 28px; }
   .header1-wrapper-logo img {
-    height: 34px;
+    height: 28px;
     width: auto; }
 
 .header1-wrapper-contact {
@@ -48,6 +48,8 @@ header.header1 {
     height: 20px;
     width: auto;
     margin-left: 30px; }
+    .header1-wrapper-contact figure figcaption {
+      align-items: center; }
   .header1-wrapper-contact img {
     height: 20px;
     width: auto;
@@ -104,10 +106,11 @@ header.header2 {
   align-items: center;
   box-sizing: border-box;
   width: 90%;
-  max-width: 1100px; }
+  max-width: 1306px; }
 
 .header2-wrapper-menu {
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  font-weight: 600; }
   .header2-wrapper-menu a {
     box-sizing: border-box;
     align-items: center;
@@ -124,25 +127,21 @@ header.header2 {
     border-bottom: 2px solid #262626; }
 
 .header2-wrapper-entrance {
-  align-items: center; }
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end; }
   .header2-wrapper-entrance figure {
+    align-items: flex-end;
     color: #00b372;
-    margin-right: 20px; }
+    width: 58px;
+    margin-left: 20px; }
     .header2-wrapper-entrance figure figcaption {
-      font: 16px "Roboto"; }
+      margin-bottom: -1px;
+      font: 12px "Roboto";
+      line-height: 11.5px; }
     .header2-wrapper-entrance figure img {
       height: 20px;
       margin-right: 4px; }
-  .header2-wrapper-entrance button {
-    width: 160px;
-    height: 35px;
-    border-radius: 3px;
-    background-color: #00b372;
-    color: white;
-    text-decoration: uppercase;
-    text-align: center;
-    border: none;
-    font: 14px "Roboto"; }
 
 header.header3 {
   display: none; }
