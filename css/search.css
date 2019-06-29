@@ -97,7 +97,7 @@
 }
 
 .header2-icon-search:before {
-	content: "\e000";
+	content: "";
 }
 
 .header2-search.header2-search-open,
