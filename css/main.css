@@ -1,4 +1,4 @@
-header.header1, .header1-wrapper, .header1-wrapper-contact, .header1-wrapper-contact figure, .header1-wrapper-contact figure figcaption, header.header2, .header2-wrapper, .header2-wrapper-menu, .header2-wrapper-menu a, .header2-wrapper-entrance, .header2-wrapper-entrance figure, header.active .fullscreen-overlay-nav a, header.active .fullscreen-overlay-nav2 a, header.active .fullscreen-overlay-nav2 figure {
+header.header1, .header1-wrapper, .header1-wrapper-logo, .header1-wrapper-contact, .header1-wrapper-contact figure, .header1-wrapper-contact figure figcaption, header.header2, .header2-wrapper, .header2-wrapper-menu, .header2-wrapper-menu a, .header2-wrapper-entrance, .header2-wrapper-entrance figure, header.active .fullscreen-overlay-nav a, header.active .fullscreen-overlay-nav2 a, header.active .fullscreen-overlay-nav2 figure {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -31,7 +31,7 @@ header.header1 {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  width: 90%;
+  width: 95%;
   max-width: 1306px;
   height: 34px; }
 
@@ -39,7 +39,10 @@ header.header1 {
   height: 28px; }
   .header1-wrapper-logo img {
     height: 28px;
-    width: auto; }
+    width: auto;
+    margin-right: 30px; }
+  .header1-wrapper-logo a {
+    margin-right: 20px; }
 
 .header1-wrapper-contact {
   justify-content: flex-end;
@@ -106,7 +109,7 @@ header.header2 {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  width: 90%;
+  width: 95%;
   max-width: 1306px; }
 
 .header2-wrapper-menu {
@@ -161,7 +164,7 @@ header.active {
   header.active .fullscreen-overlay-nav {
     box-sizing: border-box;
     z-index: 2;
-    width: 90%;
+    width: 95%;
     padding: 25px 0 0 0;
     margin: 0 5%;
     border-bottom: 1px solid #e6e6e6; }
@@ -173,7 +176,7 @@ header.active {
   header.active .fullscreen-overlay-nav2 {
     box-sizing: border-box;
     z-index: 2;
-    width: 90%;
+    width: 95%;
     padding: 25px 0 0 0;
     margin: 0 5%; }
     header.active .fullscreen-overlay-nav2 a {
