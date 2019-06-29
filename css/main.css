@@ -43,7 +43,8 @@ header.header1 {
     margin-right: 30px; }
   .header1-wrapper-logo a {
     margin-right: 20px;
-    font-weight: 300; }
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased; }
 
 .header1-wrapper-contact {
   justify-content: flex-end;
