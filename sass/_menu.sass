@@ -106,6 +106,30 @@ header.header1
 	a.active span:after
 		transform: rotate(-45deg) !important
 
+.wrapper-mobile-phone
+	padding-top: 3px
+
+.header1-wrapper-mobile figure
+	@extend %flex
+	align-items: flex-end
+	color: $accent
+	margin-right: 20px
+	margin-left: 20px
+
+	figcaption
+		margin-bottom: -1px
+		font: 12px 'Roboto', sans-serif,  Helvetica Neue, Helvetica
+		line-height: 11.5px
+
+	img
+		height: 20px
+		margin-right: 6px
+
+
+@media (max-width: 500px)
+	.wrapper-mobile-phone
+		display: none
+
 header.header2
 	@extend %flex
 	justify-content: center
@@ -235,21 +259,24 @@ header.active
 		display: flex
 		align-items: center
 
-	figure
+	.fullscreen-overlay-nav2 figure
 		display: -webkit-flex
 		display: -moz-flex
 		display: -ms-flex
 		display: -o-flex
 		display: flex
+		align-items: flex-end
 		color: $accent
 		margin-right: 20px
 
 		figcaption
-			font: 16px 'Roboto', sans-serif,  Helvetica Neue, Helvetica
+			margin-bottom: -1px
+			font: 12px 'Roboto', sans-serif,  Helvetica Neue, Helvetica
+			line-height: 11.5px
 
 		img
 			height: 20px
-			margin-right: 4px
+			margin-right: 6px
 
 	header.active
 		box-sizing: border-box

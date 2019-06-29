@@ -1,4 +1,4 @@
-header.header1, .header1-wrapper, .header1-wrapper-logo, .header1-wrapper-contact, .header1-wrapper-contact figure, .header1-wrapper-contact figure figcaption, header.header2, .header2-wrapper, .header2-wrapper-menu, .header2-wrapper-menu a, .header2-wrapper-entrance, .header2-wrapper-entrance figure, header.active .fullscreen-overlay-nav a, header.active .fullscreen-overlay-nav2 a, header.active .fullscreen-overlay-nav2 figure {
+header.header1, .header1-wrapper, .header1-wrapper-logo, .header1-wrapper-contact, .header1-wrapper-contact figure, .header1-wrapper-contact figure figcaption, .header1-wrapper-mobile figure, header.header2, .header2-wrapper, .header2-wrapper-menu, .header2-wrapper-menu a, .header2-wrapper-entrance, .header2-wrapper-entrance figure, header.active .fullscreen-overlay-nav a, header.active .fullscreen-overlay-nav2 a, header.active .fullscreen-overlay-nav2 figure {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -102,6 +102,26 @@ header.header1 {
     transform: rotate(45deg) !important; }
   .header1-wrapper-mobile a.active span:after {
     transform: rotate(-45deg) !important; }
+
+.wrapper-mobile-phone {
+  padding-top: 3px; }
+
+.header1-wrapper-mobile figure {
+  align-items: flex-end;
+  color: #00b372;
+  margin-right: 20px;
+  margin-left: 20px; }
+  .header1-wrapper-mobile figure figcaption {
+    margin-bottom: -1px;
+    font: 12px 'Roboto', sans-serif,  Helvetica Neue, Helvetica;
+    line-height: 11.5px; }
+  .header1-wrapper-mobile figure img {
+    height: 20px;
+    margin-right: 6px; }
+
+@media (max-width: 500px) {
+  .wrapper-mobile-phone {
+    display: none; } }
 
 header.header2 {
   justify-content: center;
@@ -207,19 +227,22 @@ header.active {
     display: -o-flex;
     display: flex;
     align-items: center; }
-  figure {
+  .fullscreen-overlay-nav2 figure {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    align-items: flex-end;
     color: #00b372;
     margin-right: 20px; }
-    figure figcaption {
-      font: 16px 'Roboto', sans-serif,  Helvetica Neue, Helvetica; }
-    figure img {
+    .fullscreen-overlay-nav2 figure figcaption {
+      margin-bottom: -1px;
+      font: 12px 'Roboto', sans-serif,  Helvetica Neue, Helvetica;
+      line-height: 11.5px; }
+    .fullscreen-overlay-nav2 figure img {
       height: 20px;
-      margin-right: 4px; }
+      margin-right: 6px; }
   header.active {
     box-sizing: border-box;
     display: -webkit-flex;
