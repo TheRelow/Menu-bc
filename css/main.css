@@ -8,7 +8,8 @@ header.header1, .header1-wrapper, .header1-wrapper-logo, .header1-wrapper-contac
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif,  Helvetica Neue, Helvetica; }
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased; }
 
 html {
   transition: all .33s ease-out;
@@ -43,9 +44,7 @@ header.header1 {
     margin-right: 30px; }
   .header1-wrapper-logo a {
     margin-right: 20px;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased; }
+    font: 12px 'Roboto light', sans-serif, Helvetica Neue, Helvetica; }
 
 .header1-wrapper-contact {
   justify-content: flex-end;
