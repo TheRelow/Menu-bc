@@ -42,7 +42,8 @@ header.header1 {
     width: auto;
     margin-right: 30px; }
   .header1-wrapper-logo a {
-    margin-right: 20px; }
+    margin-right: 20px;
+    font-weight: 300; }
 
 .header1-wrapper-contact {
   justify-content: flex-end;
