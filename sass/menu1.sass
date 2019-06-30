@@ -1,3 +1,14 @@
+%flex
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+
+$dark: #262626
+$light: #e6e6e6
+$accent: #00b372
+
 .menu
 	width: 100%
 	position: relative
@@ -35,8 +46,6 @@ header.header1
 		font: 12px 'Roboto light', sans-serif, Helvetica Neue, Helvetica
 		cursor: pointer
 		transition: 0.5s color
-		text-decoration: none
-		color: $dark
 
 	a:hover
 		color: #999999
@@ -100,13 +109,13 @@ header.header1
 			transform: translateY(5px)
 
 	a.active span
-		height: 0 
+		height: 0
 
 	a.active span:before
-		transform: rotate(45deg) 
+		transform: rotate(45deg)
 
 	a.active span:after
-		transform: rotate(-45deg) 
+		transform: rotate(-45deg)
 
 .wrapper-mobile-phone
 	padding-top: 3px

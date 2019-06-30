@@ -5,16 +5,6 @@ header.header1, .header1-wrapper, .header1-wrapper-logo, .header1-wrapper-contac
   display: -o-flex;
   display: flex; }
 
-* {
-  padding: 0;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased; }
-
-html {
-  transition: all .33s ease-out;
-  min-height: 200vh; }
-
 .menu {
   width: 100%;
   position: relative;
@@ -46,9 +36,7 @@ header.header1 {
     margin-right: 20px;
     font: 12px 'Roboto light', sans-serif, Helvetica Neue, Helvetica;
     cursor: pointer;
-    transition: 0.5s color;
-    text-decoration: none;
-    color: #262626; }
+    transition: 0.5s color; }
   .header1-wrapper-logo a:hover {
     color: #999999; }
 
